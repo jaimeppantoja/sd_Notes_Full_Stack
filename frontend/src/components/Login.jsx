@@ -13,7 +13,7 @@ const Login = ({ onLogin }) => {
 
     // Check if entered username and password match the hardcoded ones
     if (username === hardcodedUsername && password === hardcodedPassword) {
-      onLogin();  // Call the onLogin function passed as a prop to change the state
+      onLogin(); // Call the onLogin function passed as a prop to change the state
     } else {
       alert("Invalid username or password");
     }
@@ -29,6 +29,7 @@ const Login = ({ onLogin }) => {
             type="text"
             id="username"
             value={username}
+            placeholder="ensolvers" // Add placeholder text here
             onChange={(e) => setUsername(e.target.value)}
           />
         </div>
@@ -38,6 +39,7 @@ const Login = ({ onLogin }) => {
             type="password"
             id="password"
             value={password}
+            placeholder="password123" // Add placeholder text here
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
