@@ -1,0 +1,13 @@
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+
