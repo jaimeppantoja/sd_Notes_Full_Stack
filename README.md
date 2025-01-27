@@ -24,7 +24,8 @@ To set up and run the application locally, follow these steps:
 Clone the repository to your local machine
 
 ### 2. Make the Bash Script Executable
-In the root folder, you’ll find a bash script named start-app.sh. Make it executable:
+
+In the root directory, where both the backend and frontend folders are located, you'll find a bash script named start-app.sh. To make this script executable, open a bash terminal and enter the following command:
 ```bash
 chmod +x start-app.sh
 ```
